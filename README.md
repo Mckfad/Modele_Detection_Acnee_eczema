@@ -1,4 +1,5 @@
-I- Contexte 
+I- Contexte
+
 Ce projet a pour objectif de développer un système intelligent capable de détecter 
 deux affections cutanées courantes : l’acné et l’eczéma, à partir d’images. 
 L’approche repose sur l’utilisation de techniques de deep learning et de modèles 
