@@ -5,6 +5,7 @@ deux affections cutanées courantes : l’acné et l’eczéma, à partir d’im
 L’approche repose sur l’utilisation de techniques de deep learning et de modèles 
 de vision par ordinateur pour automatiser le diagnostic, offrant ainsi un outil 
 d’aide à la décision médicale accessible. 
+
 II- Méthode de résolution 
 La présente étude repose sur une approche d’apprentissage profond visant à 
 développer un modèle de détection automatique de l’acné et de l’eczéma à partir 
@@ -74,8 +75,8 @@ le rapport de classification (précision, rappel, F1-score) produit par la
 bibliothèque scikit-learn. 
 Enfin, le modèle entraîné a été sauvegardé sous le format .pth à l’aide de la 
 fonction torch.save, en vue d’une réutilisation ultérieure sans réentraînement. 
+
 III- Présentation des résultats du modèle obtenu 
- 
 Les résultats obtenus témoignent d'une excellente capacité du modèle à 
 distinguer les deux classes considérées, à savoir l’acné et l’eczéma. En effet, le 
 modèle atteint une précision de 0.96 pour l’acné et de 0.98 pour l’eczéma, 
@@ -88,6 +89,7 @@ L’exactitude globale du modèle est de 97 %, ce qui signifie que 515 images su
 530 ont été correctement classées. Les moyennes macro et pondérée (macro avg 
 et weighted avg) affichent également une valeur de 0.97, traduisant la stabilité et 
 la robustesse du modèle, même en présence d’un léger déséquilibre de classes. 
+
 IV- Interface utilisateur 
 Pour faciliter l’utilisation du modèle par des utilisateurs non techniques, une 
 interface interactive a été développée avec Streamlit. 
