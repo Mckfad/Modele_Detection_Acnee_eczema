@@ -7,6 +7,7 @@ de vision par ordinateur pour automatiser le diagnostic, offrant ainsi un outil
 d’aide à la décision médicale accessible. 
 
 II- Méthode de résolution 
+
 La présente étude repose sur une approche d’apprentissage profond visant à 
 développer un modèle de détection automatique de l’acné et de l’eczéma à partir 
 d’images en niveaux de gris. L’objectif principal est de concevoir, entraîner et 
@@ -77,6 +78,7 @@ Enfin, le modèle entraîné a été sauvegardé sous le format .pth à l’aide
 fonction torch.save, en vue d’une réutilisation ultérieure sans réentraînement. 
 
 III- Présentation des résultats du modèle obtenu 
+
 Les résultats obtenus témoignent d'une excellente capacité du modèle à 
 distinguer les deux classes considérées, à savoir l’acné et l’eczéma. En effet, le 
 modèle atteint une précision de 0.96 pour l’acné et de 0.98 pour l’eczéma, 
@@ -91,6 +93,7 @@ et weighted avg) affichent également une valeur de 0.97, traduisant la stabilit
 la robustesse du modèle, même en présence d’un léger déséquilibre de classes. 
 
 IV- Interface utilisateur 
+
 Pour faciliter l’utilisation du modèle par des utilisateurs non techniques, une 
 interface interactive a été développée avec Streamlit. 
 Les principales fonctionnalités qui y sont observables sont les suivantes : 
